@@ -15,5 +15,15 @@ int main() {
             cout << i << endl;
         }
     }
+
+    // while döngüsü ile yapımı 
+    int i = 1;
+    while (i <= kullaniciSayisi) {
+        if (i % 7 == 0) {
+            cout << i << " ";
+        }
+        i++;
+    }
+    
     return 0;
 }
