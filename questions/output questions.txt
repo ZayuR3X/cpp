@@ -1,0 +1,49 @@
+SORU 1:
+
+    #include ...
+    using namespace std;
+    int Soru (int deg1, int deg2, int deg3) {
+        deg1 = deg1 + deg2 + deg3
+        return deg3;
+        return deg2;
+        return deg1;
+        return 4;
+    }
+    int main () {
+        cout << Soru(1,2,3);
+        return 0;
+    }
+
+Yukarıda C++ programı çalıştığında ekrana ne basar?
+
+Cevap: 3 // fonksiyon return edildiği anda çıkış yapılır
+            ve ekrana ne return edildiyse onu basar yani 3
+
+SORU 2:
+
+    #include ...
+    using namespace std;
+    int F2(int c){
+        c = c+1;
+        return c;
+    }
+
+    int F1 (int b) {
+        b = b+1;
+        b = F2(b);
+        return b;
+    }
+
+    int main () {
+        int a = 1;
+        a = F1(a);
+        cout << a;
+        return 0;
+    }
+
+--> Ekrana ne yazar ?
+
+Cevap: 3
+
+SORU 3:
+     
