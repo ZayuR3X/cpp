@@ -13,7 +13,7 @@ int main() {
     if (a >= b && a >= c) {
         cout << "en büyük: " << a << endl;        
     }
-    else if (b >= c) { 
+    else if (b >= c) { // sayıları sıralamamızı istemediği için a'yı elimine edebiliriz
         cout << "en büyük: " << b << endl;
     }
     else{
