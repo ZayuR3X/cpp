@@ -2,6 +2,8 @@
 using namespace std;
 
 int main () {
+    
+    // Kullanıcıdan alınan sayının faktoriyelini hesaplayan c++ programı yazınız.
 
     int faktoriyel = 1;
     int kullanici_sayisi;
