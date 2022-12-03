@@ -52,7 +52,30 @@ int main() {
     }
     
     //cout << tantoplam1 << endl;
-    cout << a_son_sonuc(11);
-
+    cout << a_son_sonuc(11) << endl;
+    
+    // k sayisi 10 ile 60 arasında tek sayı olmalı
+    // k sayısının seçimi
+    int k_Sayisi;
+    
+    while (true) {
+        
+        cout << "K sayisi 10 ile 60 arasındaki TEK sayilar olabilir...\nK sayisini giriniz: ";
+        cin >> k_Sayisi;
+        
+        if (k_Sayisi < 10 || k_Sayisi > 60) {
+            cout << "Yanlıs deger..." << endl;
+        }
+        else if (k_Sayisi%2 == 0) {
+            cout << "Dogru aralık fakat cift sayi girdiniz..." << endl;
+        }
+        else{
+            break;
+        }
+    }
+    
+    cout << a_son_sonuc(k_Sayisi) << endl;
+    
+    
     return 0;
 }
