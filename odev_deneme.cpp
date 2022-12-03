@@ -21,10 +21,18 @@ float a_sayisi(int k){
     float a_son_sayi = sqrt((2*k-3) * sqrt(faktoriyel(3*k)));
     return a_son_sayi;
 }
+
 float a_son_sonuc(int k){
     float a_sonuc;
+    
     if (k <= 15){
         a_sonuc = sqrt(a_sayisi(k));
+    }
+    else if(k > 15 && k <= 30){
+        a_sonuc = (a_sayisi(k)*a_sayisi(k) + 1);
+    }
+    else if (k > 30) {
+        a_sonuc = (a_sayisi(k)*a_sayisi(k)*a_sayisi(k));
     }
     return a_sonuc;
 }
