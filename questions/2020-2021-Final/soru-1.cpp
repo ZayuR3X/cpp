@@ -3,16 +3,15 @@ using namespace std;
 
 int main () {
     
-    int dizi[239];
+    int dizi[240];
     
-    for (int i = 0; i <= 239; i++) {
+    for (int i = 0; i < 240; i++) {
         dizi[i] = 34;
         cout << dizi[i] << endl;
     }
     
     cout << "dizi degeri: " << dizi[0] << endl;
-    cout << "dizi degeri: " << dizi[239] << endl;
-    cout << "dizi degeri: " << dizi[240] << endl; // 34 degerini vermez cünkü diziler 0. indexten baslar...(Verdigi deger bellekteki herhangi kayıtlı olan bir deger)   
+    cout << "dizi degeri: " << dizi[239] << endl;   
     
     return 0;
     
