@@ -3,9 +3,9 @@ using namespace std;
 
 int main () {
     
-    float sayilar[24]; 
+    float sayilar[25]; 
     float toplam = 0;
-    for (int i = 0; i <= 24; i++) {
+    for (int i = 0; i < 25; i++) {
     
         cout << i+1 << ". sayi: ";
         cin >> sayilar[i];
