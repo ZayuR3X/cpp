@@ -6,7 +6,7 @@
 ### Dönemi AA ile kapattıran ders notları :)
 
 ### İletişim
-- [@stefanie.x13](https://www.instagram.com/stefanie.x13)
+- [Instagram: @ahmet.zip](https://www.instagram.com/ahmet.zip)
 
 ![](https://i.imgur.com/3tIrynw.jpg)
 
