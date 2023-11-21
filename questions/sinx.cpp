@@ -7,7 +7,7 @@ int main() {
     
     int n;
     double fact;
-    float derece,derece_tam,radian,toplam = 0;
+    float derece,radian,toplam = 0;
     const float pi = 3.141592;
     // kullanıcıdan derece al
     cout << "Derece giriniz: ";
